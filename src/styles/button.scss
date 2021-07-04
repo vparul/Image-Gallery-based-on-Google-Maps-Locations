@@ -1,0 +1,23 @@
+@import './layout.scss';
+
+.button-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: $white;
+    padding: $spacing-s;
+    background: $blue;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 100%;
+    .fa-search {
+      padding:0 $spacing-xs $spacing-xs 0;
+    }
+  }
+}
