@@ -15,3 +15,13 @@
     transform: scale(2);
   }
 }
+
+@media (max-width: 768px) {
+  .gallery-img {
+    margin: $spacing-xs;
+    max-width: 48vw;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
